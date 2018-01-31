@@ -1,0 +1,21 @@
+{
+  "name": "den-downloader",
+  "version": "1.0.1",
+  "description": "CLI application to download USC DEN course material for later use.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "author": "Marton Demeter <marton1029@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "array-unique": "^0.3.2",
+    "cheerio": "^1.0.0-rc.2",
+    "inquirer": "^4.0.1",
+    "moment": "^2.19.3",
+    "pad-md": "0.0.5",
+    "prompt": "^1.0.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
